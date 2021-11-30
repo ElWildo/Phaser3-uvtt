@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "typeRoots": [
+    "./node_modules/phaser/types"
+  ],
+  "types": [
+    "Phaser"
+  ],
+  "include": [
+    "src/*.ts"
+  ]
+}

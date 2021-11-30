@@ -1,0 +1,28 @@
+{
+  "name": "phaser3-typescript-boilerplate",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack-dist.config.js",
+    "start": "webpack serve",
+    "lint": "eslint . --ext .js --ext .ts"
+  },
+  "author": "cloakedninjas",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "copy-webpack-plugin": "^10.0.0",
+    "eslint": "^8.2.0",
+    "eslint-config-google": "^0.14.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}

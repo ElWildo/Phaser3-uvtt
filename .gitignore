@@ -1,0 +1,15 @@
+
+# Dependency directories
+node_modules/*
+
+# Extra Config Files
+package-lock.json
+.tscache
+.vscode
+.DS_Store
+
+# Compiled Files
+# dist/lib/
+
+# Debug
+npm-debug.log
