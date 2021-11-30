@@ -1,4 +1,4 @@
-# Phaser 3 Typescript Boilerplate
+# Phaser 3 Typescript Phaser3 Uvtt test
 Contains 3 scenes:
 - **Boot** (for minimal file loading for files needed in Preload)
 - **Preload** contains a bespoke driven by the `manifest.json`
@@ -21,3 +21,7 @@ Build the production version and output files to `dist`
 - `npm run lint`
 
 Lint the codebase using ESLint
+
+## Reference
+
+*UVTT:* Universal VTT. It's a file created with dungeondraft used to import dynamic lighting.
