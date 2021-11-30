@@ -22,6 +22,6 @@ Build the production version and output files to `dist`
 
 Lint the codebase using ESLint
 
-## Reference
+## Glossary
 
-*UVTT:* Universal VTT. It's a file created with dungeondraft used to import dynamic lighting.
+**UVTT:** Universal VTT. It's a file created with dungeondraft used to import dynamic lighting.
