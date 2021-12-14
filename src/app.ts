@@ -11,12 +11,18 @@ const config: Phaser.Types.Core.GameConfig = {
   scale: {
     mode: Phaser.Scale.FIT,
     parent: 'game-container',
-    autoCenter: Phaser.Scale.CENTER_HORIZONTALLY,
-    width: 800,
-    height: 600,
+    autoCenter: Phaser.Scale.CENTER_BOTH,
+    width: 1280,
+    height: 720,
     max: {
-      width: 800,
-      height: 600
+      width: 1280,
+      height: 720
+    }
+  },
+  physics: {
+    default: 'arcade',
+    arcade: {
+      debug: false
     }
   }
 };
